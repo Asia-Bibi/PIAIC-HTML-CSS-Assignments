@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chapter #7</title>
+</head>
+<body>
+    <h1>Forms</h1>
+
+    <form>
+        <fieldset width="50%">
+            <legend>Your Details:</legend>
+        <p>Name:
+            <input type="text" name="Name" maxlength="15">
+        </p>
+        <p>Email:
+            <input type="email" name="Email" maxlength="25">
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Your Review:</legend>
+        <p>How did you hear about us?
+            <select name="companies">
+            <option>Google</option>
+            <option>IBM</option>
+            <option>Apple</option>
+            <option>Tecno</option>
+        </select>
+        </p>
+
+        <p>Would you visit again?<br/>
+            <input type="radio" name="test" value="yes"/>
+            <label for="yes">Yes</label>
+            <input type="radio" name="test" value="no"/>
+            <label for="no">No</label>
+            <input type="radio" name="test" value="maybe"/>
+            <label for="maybe">Maybe</label>
+        </p>
+        <p>Comments: <br/>
+            <textarea name="comment" rows="4" cols="30" >Enter your comments...</textarea>
+        </p>
+    <p>
+        <input type="checkbox" name="cb" value="cb"/>Sign me up for email updates
+    </p>
+    <input type="submit" value="Submit review"/>
+    </fieldset>
+    </form>
+    
+</body>
+</html>
