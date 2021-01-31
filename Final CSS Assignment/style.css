@@ -1,0 +1,272 @@
+/* css for Navbar*/
+
+.top-bar span{
+    font-size: 12px;
+    padding: 4px 5px;
+    
+}
+.navbar-nav .nav-link{
+    color: black !important;
+    font-size: 16px;
+    margin: 6px;
+    font-weight: 1600;
+}
+.navbar-nav .nav-link:hover {
+    color: #007bff !important;
+}
+
+.banner{
+    position: relative; width: 100%; margin: 0 auto;
+}
+.paragraph{
+    color: black; 
+    position: absolute; 
+    top: 50%; width: 100%; 
+    text-align: center;
+    font-size: 3rem;
+}
+
+.card{
+    
+    height: 470px;
+    width: 100%;
+}
+
+
+    .banner img{
+        height: 470px;
+        width: 100%;
+    }
+    .heading{
+        position: absolute;
+        padding: 200px;  
+        top: -30%; 
+        text-align: right;}
+    .paragraph{
+        padding: 50px; 
+        color: black; 
+        position: absolute; 
+        top: 10%; 
+        width: 50%; 
+        text-align: left; 
+        font-size: 1rem;
+    }
+    .button{
+        position: absolute; 
+        background-color: orange; 
+        font-size: 2rem;}
+    .vertical-center{
+        position: relative; 
+        bottom:70px;
+        text-align: left;
+        padding: 50px;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+.absolutebox{
+    position: relative;
+    background-color: rgb(236, 236, 236);
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card.relativebox{
+    background-color: rgb(236, 236, 236);
+}
+
+span{
+    color: 	#51740c;
+}
+
+.card-portfolio{
+    background-color: black;
+}
+.process {
+    text-align: center;
+    margin: 2rem 3rem;
+    position: relative;
+}
+.process row{
+    width: 100%;
+    margin: 0 auto;
+}
+.process col {
+    width: 14%;
+    line-height: 1.2rem;
+    font-size: 0.8rem;
+    padding: 0 0.2rem;
+}
+.process img{
+    width: 70%;
+    padding: 1rem 0.2rem;
+}
+.reviews {
+    padding: 2rem 3rem;
+    text-align: center;
+    background-color: #c2c0c0;
+}
+.reviews > p{
+    text-align: center;
+}
+.reviews img {
+    width: 30%;
+    float: left;
+}
+.reviews td {
+    padding: 5rem;
+}
+.reviews h4 {
+    text-align: left;
+    padding: 0 0.5rem 0 6rem;
+}
+.reviews p {
+    margin-top: 0;
+    width: 100%;
+    padding: 0 2rem 0rem 6rem;
+    text-align: center;
+}
+
+.a1{
+    border-right: 2px solid #c2c0c0;
+}
+.a2 {
+    border-bottom: 2px solid #c2c0c0;
+}
+.a3 {
+    border-bottom: 2px solid #c2c0c0;
+}
+.skills{
+    text-align: center;
+    padding: 2rem 3rem;
+}
+.skills img{
+    width: 10rem;
+    
+}
+.skills h6{
+    width: 10rem;
+    text-align: center;
+}
+.project{
+    background-color: #76af03ce;
+    width: 100%;
+    height: 100%;
+}
+.project h1{
+    padding-top: 5rem;
+    color: white;
+    text-align: center;
+}
+.project .row{
+    padding-left: 70px;
+    
+}
+.project p{
+    text-align: center;
+    color: white;
+}
+
+
+.us {
+    margin: 3rem 4rem 1.5rem;
+    text-align: center;
+  }
+  
+  .us > p {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    width: 50%;
+    margin: 0 auto;
+    color: #8a8888;
+  }
+  
+  .us span:not(:nth-child(1)) {
+    display: inline-block;
+    padding: 1rem 2rem 0.5rem 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .us svg {
+    color: #8dc63f;
+  }
+  
+  .hero-img {
+    width: 100%;
+  }
+  
+  .footer {
+    padding: 1.5rem;
+    background-color: #76af03ce;
+    display: flex;
+    color: #fff;
+  }
+  .footer div {
+    padding: 1rem 2rem;
+  }
+  
+  .footer .info {
+    width: 30%;
+  }
+  
+  .footer .info p {
+    display: block;
+    line-height: 1rem;
+    padding: 2rem 0 4rem 0;
+    font-weight: 400;
+  }
+  
+  .footer .service,
+  .footer .useful {
+    border-right: 2px solid whitesmoke;
+    width: 20%;
+  }
+  
+  .footer .service li,
+  .footer .useful li {
+    display: block;
+    padding: 0 auto;
+    line-height: 2rem;
+  }
+  
+  .footer .service li a,
+  .footer .useful li a {
+    color: #fff;
+  }
+  
+  .footer .contacts {
+    width: 30%;
+  }
+  
+  .footer .logoss a {
+    margin: 0.8rem 0.2rem !important;
+    color: #fff;
+  }
+  
+  .footer span {
+    display: inline-block;
+    padding: 0.5rem;
+  }
+  
+  .footer .contacts h4:not(:first-child) {
+    padding-top: 2rem;
+  }
+  .footer h5 {
+    text-align: center;
+  }
+  
+  @media only screen and (min-width: 1300px) {
+    .about p {
+      padding: 2rem 4rem 0 4rem;
+    }
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .about p {
+      font-size: 1rem;
+    }
+  }
